@@ -1,0 +1,15 @@
+# Copyrighted PDFs and confidential research data: keep these off GitHub
+literature/*
+data/raw/*
+data/processed/*
+!**/.gitkeep
+
+# macOS / tooling
+.DS_Store
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+
+# Separate nested repo (shareable template copy), not part of PHD_AA
+_share/
